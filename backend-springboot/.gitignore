@@ -1,0 +1,61 @@
+# ==========================================
+# 1. Next.js & Frontend (700MB අඩුවෙන්නේ මෙතැනින්!)
+# ==========================================
+**/node_modules/
+node_modules/
+**/.next/
+.next/
+**/out/
+out/
+.env*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# 2. Spring Boot & Java (ඔයාගේ මුල් code එක)
+# ==========================================
+HELP.md
+**/target/
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ==========================================
+# 3. IDEs & Editors (STS, IntelliJ, VS Code)
+# ==========================================
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+**/build/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# ==========================================
+# 4. OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
